@@ -15,7 +15,7 @@ alias lsf="ls -F | rg -v /"
 
 alias ftree="eza --icons --tree --level=3 -I 'node_modules|.git' | fzf --height=40% --border --ansi"
 alias recent="eza -lah --sort=modified | head -20"
-alias bigfiles="eza lah --sort=size | tail -15 | head -11"
+alias bigfiles="eza -lah --sort=size | tail -15 | head -11"
 
 alias ff="fd --type f | fzf --height=40% --border --preview 'bat --color=always --line-range :50 {}'"
 alias gba="git branch -a | fzf --preview 'git log --oneline {} --color=always' | sed 's/.* //' | xargs git checkout"
