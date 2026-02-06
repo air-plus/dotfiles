@@ -1,3 +1,5 @@
 [user]
 	name = air-plus
 	email = jyin1221@gmail.com
+[core]
+	editor = nvim

@@ -1,2 +1,2 @@
-export PATH="&PATH:$PATH"
 export EDITOR=nvim
+export VISUAL=nvim
