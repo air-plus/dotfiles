@@ -25,7 +25,7 @@ zinit light Aloxaf/fzf-tab
 zinit ice wait lucid atload"_zsh_autosuggest_start"
 zinit light zsh-users/zsh-autosuggestions
 
-zinit ice wait lucid
+zinit ice wait lucid atinit"ZINIT[COMPINIT_OPTS]=-C"
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 source <(fzf --zsh)
