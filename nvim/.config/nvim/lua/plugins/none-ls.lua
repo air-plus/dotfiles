@@ -1,4 +1,4 @@
-if true then {} end
+if true then return {} end
 
 -- Customize None-ls sources
 

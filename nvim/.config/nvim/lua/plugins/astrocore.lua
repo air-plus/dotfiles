@@ -1,4 +1,4 @@
-if true then {} end
+if true then return {} end
 
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
