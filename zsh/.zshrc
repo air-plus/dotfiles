@@ -16,16 +16,16 @@ zinit lucid light-mode for \
   OMZL::completion.zsh \
   OMZL::key-bindings.zsh
 
-zinit ice wait lucid blockf atload"zpcompinit; zpcdreplay"
+zinit ice wait lucid blockf atload'zpcompinit; zpcdreplay'
 zinit light zsh-users/zsh-completions
 
 zinit ice wait lucid
 zinit light Aloxaf/fzf-tab
 
-zinit ice wait lucid atload"_zsh_autosuggest_start"
+zinit ice wait lucid atload'_zsh_autosuggest_start'
 zinit light zsh-users/zsh-autosuggestions
 
-zinit ice wait lucid atinit"ZINIT[COMPINIT_OPTS]=-C"
+zinit ice wait lucid atinit'ZINIT[COMPINIT_OPTS]=-C'
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 source <(fzf --zsh)
