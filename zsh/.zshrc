@@ -29,7 +29,7 @@ zinit ice wait lucid atinit'ZINIT[COMPINIT_OPTS]=-C'
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 source <(fzf --zsh)
-eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init zsh)"
 
 for file in "$HOME"/.config/zsh/{envs,aliases,funcs}.sh; do
   [[ -f "$file" ]] && source "$file"
