@@ -35,5 +35,5 @@ for file in "$HOME"/.config/zsh/{envs,aliases,funcs}.sh; do
   [[ -f "$file" ]] && source "$file"
 done
 
-eval "$(starship init zsh)"
 fastfetch -l nixos -c examples/10
+eval "$(starship init zsh)"
