@@ -4,7 +4,7 @@ if type -q eza
     abbr -a ls "$eza_base"
     abbr -a ll "$eza_base -lh"
     abbr -a la "$eza_base -lha"
-    abbr -a lg "$eza_base -lha --git"
+    abbr -a lg "$eza_base -lha --git -git-ignore"
 else
     abbr -a ls 'ls -G'
     abbr -a ll 'ls -lh'
