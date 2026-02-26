@@ -1,6 +1,6 @@
 git:
   pagers:
-    - pager: delta --dark --paging=never
+    - pager: delta --paging=never
 
 gui:
   theme:
