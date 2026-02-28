@@ -5,6 +5,8 @@
 	email = jyin1221@gmail.com
 [core]
 	pager = delta
+	autocrlf = input
+	editor = hx
 [interactive]
 	diffFilter = delta --color-only
 [delta]
@@ -13,3 +15,5 @@
   side-by-side = true
 [merge]
 	conflictStyle = zdiff3
+[color]
+	ui = auto
