@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 stow -vt $HOME */ --adopt
 bat cache --build
