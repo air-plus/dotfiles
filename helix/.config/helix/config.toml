@@ -11,6 +11,9 @@ color-modes = true
 completion-replace = true
 end-of-line-diagnostics = "hint"
 
+[editor.auto-save]
+focus-lost = true
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
