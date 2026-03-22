@@ -1,5 +1,5 @@
 [include]
-  	path = ~/.config/delta/themes/catppuccin.gitconfig
+	path = /data/data/com.termux/files/home/.config/delta/themes/catppuccin.gitconfig
 [user]
 	name = air-plus
 	email = jyin1221@gmail.com
@@ -9,7 +9,7 @@
 [interactive]
 	diffFilter = delta --color-only
 [delta]
-  	features = catppuccin-mocha
-  	navigate = true
+	features = catppuccin-mocha
+	navigate = true
 [merge]
 	conflictStyle = zdiff3
