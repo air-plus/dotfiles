@@ -1,19 +1,15 @@
 [include]
-  path = ~/.config/delta/themes/catppuccin.gitconfig
+  	path = ~/.config/delta/themes/catppuccin.gitconfig
 [user]
 	name = air-plus
 	email = jyin1221@gmail.com
 [core]
 	pager = delta
-	autocrlf = input
 	editor = hx
 [interactive]
 	diffFilter = delta --color-only
 [delta]
-  features = catppuccin-mocha
-  navigate = true
-  side-by-side = true
+  	features = catppuccin-mocha
+  	navigate = true
 [merge]
 	conflictStyle = zdiff3
-[color]
-	ui = auto
