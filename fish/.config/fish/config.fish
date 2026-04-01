@@ -3,4 +3,5 @@ if status is-interactive
     zoxide init fish | source
 
     fastfetch -c examples/10
+    starship init fish | source
 end
