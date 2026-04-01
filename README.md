@@ -8,9 +8,28 @@
 ---
 
 ## ✨ 特性
-* **🐚 体验美化**: `fish` + `fisher` 和一些别名及有用的插件
+* **🐚 体验优化**: `fish` + `fisher` 和一些别名及有用的插件
 * **🎨 界面美化**: **Fira Code** + **Catppuccin Mocha**
-* **🛠 常用工具**: `bat`, `cat`, `fd` 等 Linux 原生命令的现代替代品
+* **🛠 常用工具**:
+| 工具 | 替代对象/说明 |
+| :--- | :--- |
+| **`fish`** | 替代 `bash` 的交互式模式 |
+| **`bat`** | `cat` |
+| **`eza`** | `ls` |
+| **`fd`** | `find` |
+| **`ripgrep(rg)`** | `grep` |
+| **`htop`** | `top` |
+| **`git-delta(delta)`** | `git diff` |
+| **`zoxide(z)`** | `cd` |
+| **`helix(hx)`** | `nano` |
+| **`fastfetch`** | 信息展示 |
+| **`starship`** | Shell 提示符引擎 |
+| **`fzf`** | 模糊查找工具 |
+| **`jq`** | JSON 处理 |
+| **`yazi`** | 文件管理器 |
+| **`stow`** | 配置文件管理 |
+| **`git & lazygit`** | 版本控制工具 |
+| **`zellij`** | 终端复用器 |
 
 ## 🚀 快速开始
 ### 1. **环境准备**:
