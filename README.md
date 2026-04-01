@@ -18,6 +18,13 @@
 * **🎨 界面美化**: **Fira Code** + **Catppuccin Mocha**
 * **🛠 常用工具**: `bat`, `fd`, `rg` 等很有用的工具!
 
+## 📸 预览
+| 终端 | 美观的 `ls` 输出 |
+| ------------- | ------------- |
+| <img alt="image" src="https://github.com/air-plus/user-attachments/assets/screenshot-1.png" /> | <img alt="image" src="https://github.com/air-plus/user-attachments/assets/screenshot-2.png" /> |
+| `bat` 输出 | 工作流 |
+| <img alt="image" src="https://github.com/air-plus/user-attachments/assets/screenshot-3.png" /> | <img alt="image" src="https://github.com/air-plus/user-attachments/assets/screenshot-4.png" /> |
+
 ## 🚀 快速开始
 ### 1. **环境准备**:
 ```bash
