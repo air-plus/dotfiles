@@ -3,6 +3,6 @@
 pkg install -y termux-api fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit helix helix-grammars zellij build-essential nodejs-lts tur-repo
 stow -t $HOME */ --adopt
 bat cache --build
-mkdir -p $HOME/{projects, .img} && touch $HOME/.hushlogin
+mkdir -p $HOME/{projects,.img} && touch $HOME/.hushlogin
 cp $HOME/storage/downloads/back.jpg $HOME/.img/
 chsh -s fish
