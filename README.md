@@ -1,5 +1,7 @@
 # Termux 配置文件
 
+[![GitHub stars](https://img.shields.io/github/stars/air-plus/dotfiles)](https://github.com/air-plus/dotfiles/stargazers)
+
 这是一个专为 **Termux** 环境打造的配置文件仓库, 旨在实现移动端终端的“开箱即用”, 提升效率并告别丑陋的默认界面
 
 > [!IMPORTANT]
