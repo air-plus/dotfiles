@@ -20,7 +20,7 @@
 
 ## 📸 预览
 | 终端 | 美观的 `ls` 输出 |
-| ------------- | ------------- |
+| :---: | :---: |
 | <img alt="image" src=".assets/screenshot-1.png" /> | <img alt="image" src=".assets/screenshot-2.png" /> |
 | `bat` 输出 | 工作流 |
 | <img alt="image" src=".assets/screenshot-3.png" /> | <img alt="image" src=".assets/screenshot-4.png" /> |
