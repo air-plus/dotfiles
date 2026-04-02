@@ -21,9 +21,9 @@
 ## 📸 预览
 | 终端 | 美观的 `ls` 输出 |
 | ------------- | ------------- |
-| <img alt="image" src="https://github.com/user-attachments/.assets/screenshot-1.png" /> | <img alt="image" src="https://github.com/user-attachments/.assets/screenshot-2.png" /> |
+| <img alt="image" src=".assets/screenshot-1.png" /> | <img alt="image" src=".assets/screenshot-2.png" /> |
 | `bat` 输出 | 工作流 |
-| <img alt="image" src="https://github.com/user-attachments/.assets/screenshot-3.png" /> | <img alt="image" src="https://github.com/user-attachments/.assets/screenshot-4.png" /> |
+| <img alt="image" src=".assets/screenshot-3.png" /> | <img alt="image" src=".assets/screenshot-4.png" /> |
 
 ## 🚀 快速开始
 ### 1. **环境准备**:
