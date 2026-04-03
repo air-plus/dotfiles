@@ -25,7 +25,7 @@
 | 美观的 `la` (一个自定义的 `eza` 别名) 输出 | 工作流 |
 | <img alt="image" src=".assets/screenshot-3.png" width="80%" /> | <img alt="image" src=".assets/screenshot-4.png" width="80%" /> |
 > [!IMPORTANT]
-> 之所以能显示图片是因为使用了基于 Termux 和 ZeroTermux 的 Termux-X
+> 之所以能显示图片是因为使用了基于 Termux 的 ZeroTermux
 
 ## 🚀 快速开始
 在你的 Termux 执行下面这些命令 👇
@@ -33,11 +33,15 @@
 termux-setup-storage
 termux-change-repo
 pkg upgrade -y
-curl -fsSL --proto '=https' --tlsv1.2 https://raw.githubusercontent.com/air-plus/dotfiles/main/setup.sh | bash
+pkg install -y git
+git clone https://github.com/air-plus/dotfiles.git
+cd dotfiles
+chmod +x setup.sh
+./setup.sh
 ```
 
 ## ⚠️ 注意事项
 * `termux-setup-storage` 命令会弹出一个授权提示框, 请务必点击"允许"或类似选项!
 * `termux-change-repo` 命令会交互式的切换源, 需要手动操作!
-* 如果在 `pkg upgrade` 的过程中遇到交互式确认的步骤时直接回车即可
+* 如果在 `pkg upgrade -y` 的过程中遇到交互式确认的步骤时直接回车即可
 * 完成后, 重启 Termux 即可看到效果(你可能需要双指捏合屏幕缩小)
