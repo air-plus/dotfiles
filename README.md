@@ -25,9 +25,12 @@
 | 美观的 `la` (一个自定义的 `eza` 别名) 输出 | 工作流 |
 | <img alt="image" src=".assets/screenshot-3.png" width="80%" /> | <img alt="image" src=".assets/screenshot-4.png" width="80%" /> |
 > [!IMPORTANT]
-> 之所以能显示图片是因为使用了基于 Termux 的 ZeroTermux
+> 之所以能在 Termux 显示图片是因为使用了基于 Termux 的 ZeroTermux
 
 ## 🚀 快速开始
+<details>
+  <summary>安装</summary>
+
 在你的 Termux 执行下面这些命令 👇
 ```bash
 termux-setup-storage
@@ -39,6 +42,28 @@ cd dotfiles
 chmod +x setup.sh
 ./setup.sh
 ```
+</details>
+
+<details>
+  <summary>更新</summary>
+
+在你的 Termux 执行下面这些命令 👇
+```bash
+pkg update && pkg upgrade
+fisher update
+```
+</details>
+
+<details>
+  <summary>更新 (仓库级)</summary>
+
+在你的 Termux 执行下面这些命令 👇
+```bash
+cd dotfiles
+git pull
+stow -t ~ */
+```
+</details>
 
 ## ⚠️ 注意事项
 * `termux-setup-storage` 命令会弹出一个授权提示框, 请务必点击"允许"或类似选项!
