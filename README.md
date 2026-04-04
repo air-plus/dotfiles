@@ -18,15 +18,6 @@
 * **🎨 界面美化**: **Fira Code** + **Catppuccin Mocha**
 * **🛠 常用工具**: `bat`, `fd`, `rg` 等很有用的工具!
 
-## 📸 预览
-| 终端 | 美观的 `bat` 输出 |
-| :---: | :---: |
-| <img alt="image" src=".assets/screenshot-1.png" width="80%" /> | <img alt="image" src=".assets/screenshot-2.png" width="80%" /> |
-| 美观的 `la` (一个自定义的 `eza` 别名) 输出 | 工作流 |
-| <img alt="image" src=".assets/screenshot-3.png" width="80%" /> | <img alt="image" src=".assets/screenshot-4.png" width="80%" /> |
-> [!IMPORTANT]
-> 之所以能在 Termux 显示图片是因为使用了基于 Termux 的 ZeroTermux
-
 ## 🚀 快速开始
 <details>
   <summary>安装</summary>
