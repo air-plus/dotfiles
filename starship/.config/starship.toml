@@ -1,7 +1,4 @@
-
-# # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
-
 
 add_newline = true
 
@@ -67,7 +64,7 @@ format = "[](fg:#ffffff bg:none)[🐍](fg:#ffffff bg:#ffffff)[](fg:#ffffff
 [time]
 disabled = false
 format="[](fg:#ffffff bg:none)[💖](fg:#ffffff bg:#ffffff)[](fg:#ffffff bg:#f72851)[ $time](fg:#ffffff bg:#f72851)[](fg:#f72851 bg:none)"
-time_format = "%T" #change to %R to only have HH:MM
+time_format = "%T"
 style="fg:#000000 bg:#f72851"
 
 
@@ -78,16 +75,15 @@ format="[](fg:#ffffff bg:none)[🚨](fg:#ffffff bg:#ffffff)[](fg:#ffffff b
 [docker_context]
 only_with_files = false      
 symbol  = "🐳 "
-style   = "fg:#3DA2FF"        # bright blue, tweak to taste
+style   = "fg:#3DA2FF"
 format  = "[](fg:#3DA2FF bg:none)[$symbol$context]($style)[](fg:#3DA2FF bg:none) "
 
 [kubernetes]
-disabled = false              # the module is off by default
+disabled = false
 symbol   = "🕸️"
-style    = "fg:#A8B9FE"       # kube-blue
+style    = "fg:#A8B9FE"
 format   = "[](fg:#A8B9FE bg:none)[$symbol$context(/$namespace)]($style)[](fg:#A8B9FE bg:none) "
 
 # [[kubernetes.contexts]]
-# context_pattern = "colima"    # local Colima cluster
+# context_pattern = "colima"
 # style           = "fg:#3DA2FF"
-
