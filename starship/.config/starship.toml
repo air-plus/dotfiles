@@ -1,89 +1,146 @@
-"$schema" = 'https://starship.rs/config-schema.json'
+format = """
+[░▒▓](#2e3440)\
+$os\
+$username\
+[](bg:#3b4252 fg:#2e3440)\
+$directory\
+[](fg:#3b4252 bg:#434c5e)\
+$git_branch\
+$git_status\
+[](fg:#434c5e bg:#4c566a)\
+$c\
+$python\
+$elixir\
+$elm\
+$golang\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$scala\
+[](fg:#4c566a bg:#5e81ac)\
+$docker_context\
+[](fg:#5e81ac bg:#6272a4)\
+$time\
+[ ](fg:#6272a4)\
+\n
+$cmd_duration\
+$character\
+"""
+#add_newline = false
 
-add_newline = true
-
-format = """$time $all"""
-
-[character]
-success_symbol = "[➜](white)"
-error_symbol = "[➜](white)"
-
-[git_branch]
-symbol = "🌱 "
-truncation_length = 4
-truncation_symbol = ""
-# ignore_branches = ["master", "main"]
-format = "[](fg:#ffffff bg:none)[🌱](fg:#282c34 bg:#ffffff)[](fg:#ffffff bg:#24c90a)[ $branch]($style)[](fg:#24c90a bg:none) "
-style = "fg:#ffffff bg:#24c90a"
-
-[git_commit]
-commit_hash_length = 4
-tag_symbol = "🔖 "
-format = "[\\($hash\\)]($style) [\\($tag\\)]($style)"
-style = "green"
-
-[git_status]
-format="[](fg:#ffffff bg:none)[🥶](fg:#282c34 bg:#ffffff)[ ](fg:#ffffff bg:#4da0ff)[$modified](fg:#282c34 bg:#4da0ff)[$untracked](fg:#282c34 bg:#4da0ff)[$staged](fg:#282c34 bg:#4da0ff)[$renamed](fg:#282c34 bg:#4da0ff)[](fg:#4da0ff bg:none)"
-conflicted = ""
-ahead = "🏎💨"
-behind = "😰"
-diverged = "😵"
-up_to_date = "🥰"
-untracked = "🤷"
-stashed = "📦"
-modified = "📝"
-renamed = "👅"
-deleted = "🗑️"
-style = "red"
+[line_break]
 disabled = false
 
-# [git_state]
-# rebase = "REBASING"
-# merge =	"MERGING"
-# revert = "REVERTING"
-# cherry_pick = "CHERRY-PICKING"
-# bisect = "BISECTING"
-# am = "AM"
-# am_or_rebase = "AM/REBASE"
-# style =	"yellow"
-# format = '\([$state( $progress_current/$progress_total)]($style)\) '
-# disabled = true
+[username]
+show_always = true
+style_user = "bg:#2e3440"
+style_root = "bg:#9A348E"
+format = '[ $user ]($style)'
+disabled = false
 
+[os]
+style = "bg:#9A348E"
+disabled = true
 
 [directory]
-format = "[](fg:#ffffff bg:none)[✨](fg:#ffffff bg:#ffffff)[](fg:#ffffff bg:#ffc32b)[ $path]($style)[](fg:#ffc32b bg:none) "
-style = "fg:#ffffff bg:#ffc32b"
+style = "bg:#3b4252"
+format = "[ $path ]($style)"
 truncation_length = 3
-truncate_to_repo=false
-home_symbol = ""
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[c]
+symbol = " "
+style = "bg:#4c566a"
+format = '[ $symbol ($version) ]($style)'
 
 [python]
-format = "[](fg:#ffffff bg:none)[🐍](fg:#ffffff bg:#ffffff)[](fg:#ffffff bg:#2eb82e)[ (${version} )(\\($virtualenv\\))](fg:#ffffff bg:#2eb82e)[](fg:#2eb82e bg:none) "
+symbol = " "
+style = "bg:#4c566a"
+format = '[ $symbol ($version) ]($style)'
 
+[docker_context]
+symbol = " "
+style = "bg:#5e81ac"
+format = '[ $symbol $context ]($style) $path'
+
+[elixir]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[elm]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[git_branch]
+symbol = ""
+style = "bg:#434c5e"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#434c5e"
+format = '[$all_status$ahead_behind ]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[julia]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[nim]
+symbol = " "
+style = "bg:##434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
+
+[scala]
+symbol = " "
+style = "bg:#434c5e"
+format = '[ $symbol ($version) ]($style)'
 
 [time]
 disabled = false
-format="[](fg:#ffffff bg:none)[💖](fg:#ffffff bg:#ffffff)[](fg:#ffffff bg:#f72851)[ $time](fg:#ffffff bg:#f72851)[](fg:#f72851 bg:none)"
-time_format = "%T"
-style="fg:#000000 bg:#f72851"
+time_format = "%R"
+style = "bg:#6272a4"
+format = '[  $time ]($style)'
 
+[character]
+success_symbol = '[ ➜](#6272a4)'
+error_symbol = '[ ➜](bold red)'
 
 [cmd_duration]
-min_time = 1000
-format="[](fg:#ffffff bg:none)[🚨](fg:#ffffff bg:#ffffff)[](fg:#ffffff bg:#e60000)[ took $duration](fg:#ffffff bg:#e60000)[](fg:#e60000 bg:none)"
-
-[docker_context]
-only_with_files = false      
-symbol  = "🐳 "
-style   = "fg:#3DA2FF"
-format  = "[](fg:#3DA2FF bg:none)[$symbol$context]($style)[](fg:#3DA2FF bg:none) "
-
-[kubernetes]
-disabled = false
-symbol   = "🕸️"
-style    = "fg:#A8B9FE"
-format   = "[](fg:#A8B9FE bg:none)[$symbol$context(/$namespace)]($style)[](fg:#A8B9FE bg:none) "
-
-# [[kubernetes.contexts]]
-# context_pattern = "colima"
-# style           = "fg:#3DA2FF"
+min_time = 500
+format = ' [$duration](#6272a4)'
