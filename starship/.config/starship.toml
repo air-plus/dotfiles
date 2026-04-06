@@ -29,7 +29,6 @@ $time\
 $cmd_duration\
 $character\
 """
-#add_newline = false
 
 [line_break]
 disabled = false
@@ -38,11 +37,11 @@ disabled = false
 show_always = true
 style_user = "bg:#2e3440"
 style_root = "bg:#9A348E"
-format = '[ $user ]($style)'
+format = '[ $user ]($style)'
 disabled = false
 
 [os]
-style = "bg:#9A348E"
+style = "bg:#2e3440"
 disabled = true
 
 [directory]
@@ -118,7 +117,7 @@ format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "bg:##434c5e"
+style = "bg:#434c5e"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
