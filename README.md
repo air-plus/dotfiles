@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="https://github.com/air-plus/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/air-plus/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-  <a href="https://github.com/air-plus/dotfiles/network/members"><img src="https://img.shields.io/github/forks/air-plus/dotfiles?colorA=363a4f&colorB=a6adc8&style=for-the-badge"></a>
   <a href="https://github.com/air-plus/dotfiles/issues"><img src="https://img.shields.io/github/issues/air-plus/dotfiles?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
 </p>
 
