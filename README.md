@@ -26,8 +26,8 @@
 > termux-change-repo
 > pkg upgrade -y
 > pkg install -y git
-> git clone https://github.com/air-plus/dotfiles.git
-> cd dotfiles
+> git clone https://github.com/air-plus/oh-my-termux.git
+> cd oh-my-termux
 > chmod +x setup.sh
 > ./setup.sh
 > ```
