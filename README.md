@@ -4,7 +4,7 @@
 
 <h1>✨「Oh My Termux」！✨</h1>
 
-<a href="https://github.com/air-plus/oh-my-termux/stargazers"><img src="https://img.shields.io/github/stars/air-plus/oh-my-termux?colorA=363a4f&colorB=b7bdf8&style=for-the-badge" /></a>
+<a href="https://github.com/air-plus/oh-my-termux/stargazers"><img src="https://img.shields.io/github/stars/air-plus/oh-my-termux?logo=starship&colorA=363a4f&colorB=b7bdf8&style=for-the-badge" /></a>
 <a href="https://github.com/air-plus/oh-my-termux/issues"><img src="https://img.shields.io/github/issues/air-plus/oh-my-termux?colorA=363a4f&colorB=f5a97f&style=for-the-badge" /></a>
 <a href="https://github.com/air-plus/oh-my-termux/contributors"><img src="https://img.shields.io/github/contributors/air-plus/oh-my-termux?colorA=363a4f&colorB=a6da95&style=for-the-badge" /></a>
 
