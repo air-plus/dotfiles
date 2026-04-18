@@ -46,21 +46,26 @@ fisher update
 然后输入 `nvim`，输入 `:Lazy sync` 和 `:MasonUpdate`
 
 ## 🚨 注意事项
-* `termux-change-repo` 命令会交互式的切换源，需要手动操作！
+* 脚本执行时尽量保持亮屏且留在 Termux
+* 别手痒去删什么乱七八糟的文件，先问问 AI
+* `termux-change-repo` 命令会交互式的切换源，需要手动操作
 * 如果在 `pkg upgrade` 的过程中遇到交互式确认时直接回车即可
 
 ## 🙋‍♂️ FAQ
-Q：网络连接相关问题
-A：VPN或换个好点的节点
+### Q：我连不上 GitHub 啊
+A：用 VPN 或换个好点的节点
 
-Q：为什么安装 Node.js 和 build-essential？
+### Q：为什么安装 Node.js 和 build-essential？
 A：Neovim 的 LazyVim 可能依赖 Node.js，而 build-essential 是必要依赖
 
-Q：projects 目录是干什么的？
+### Q：projects 目录是干什么的？
 A：纯个人爱好，如果用不到可以 `rm -r projects`
 
-Q：重启 Termux 后尺寸不对怎么办
+### Q：重启 Termux 后尺寸不对怎么办
 A：双指捏合屏幕缩小视图
+
+### Q：XXX 工具不好看，可以自定义吗
+A：当然可以，但你不应该问我，你应该去找我选用的工具的文档
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2026-present <a href="https://github.com/air-plus" target="_blank">air-plus</a></p>
