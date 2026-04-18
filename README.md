@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://github.com/air-plus/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/air-plus/dotfiles?colorA=363a4f&colorB=b7bdf8&style=for-the-badge" /></a>
   <a href="https://github.com/air-plus/dotfiles/issues"><img src="https://img.shields.io/github/issues/air-plus/dotfiles?colorA=363a4f&colorB=f5a97f&style=for-the-badge" /></a>
+  <a href="https://github.com/catppuccin/nvim/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/nvim?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 这是一个专为 **Termux** 环境打造的配置文件仓库，旨在实现移动端终端的“开箱即用”，提升效率并告别丑陋的默认界面
@@ -55,4 +56,4 @@
 ---
 
 <p align="center">Copyright &copy; 2026-present <a href="https://github.com/air-plus" target="_blank">air-plus</a></p>
-<p align="center"><a href="https://github.com/air-plus/oh-my-termux/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8" /></a></p>
+<p align="center"><a href="https://github.com/air-plus/oh-my-termux/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8" /></a></p>
