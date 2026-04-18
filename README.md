@@ -1,5 +1,4 @@
 <div align="center">
-
 <h1>✨「Oh My Termux」！✨</h1>
 
 <p>
