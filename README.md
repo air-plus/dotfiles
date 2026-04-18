@@ -38,9 +38,8 @@ fisher update
 然后输入 `nvim`，输入 `:Lazy sync` 和 `:MasonUpdate`
 
 ## ⚠️ 注意事项
-* `termux-setup-storage` 命令会弹出一个授权提示框，请务必点击"允许"或类似选项！
 * `termux-change-repo` 命令会交互式的切换源，需要手动操作！
-* 如果在 `pkg upgrade -y` 的过程中遇到交互式确认时直接回车即可
+* 如果在 `pkg upgrade` 的过程中遇到交互式确认时直接回车即可
 * 完成后，重启 Termux 即可看到效果（你可能需要双指捏合屏幕缩小）
 
 ---
