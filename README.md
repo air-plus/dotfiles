@@ -47,7 +47,6 @@ fisher update
 * 如果在 `pkg upgrade` 的过程中遇到交互式确认时直接回车即可
 * 完成后，重启 Termux 即可看到效果（你可能需要双指捏合屏幕缩小）
 
----
-
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2026-present <a href="https://github.com/air-plus" target="_blank">air-plus</a></p>
 <p align="center"><a href="https://github.com/air-plus/oh-my-termux/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8" /></a></p>
