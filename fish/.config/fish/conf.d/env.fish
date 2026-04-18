@@ -1,6 +1,9 @@
 # 设置默认编辑器
 set -gx EDITOR nvim
 
+# 设置 GPG_TTY
+set -gx GPG_TTY $(tty)
+
 # 设置 XDG 标准
 set -gx XDG_CACHE_HOME "$HOME/.cache"
 set -gx XDG_CONFIG_HOME "$HOME/.config"

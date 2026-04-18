@@ -3,6 +3,7 @@
 [user]
 	name = air-plus
 	email = jyin1221@gmail.com
+	signingkey = 8D980E6DA8C82B71
 [core]
 	pager = delta
 [interactive]
@@ -12,3 +13,5 @@
 	navigate = true
 [merge]
 	conflictStyle = zdiff3
+[commit]
+	gpgsign = true
