@@ -2,7 +2,9 @@
 set -e
 
 if [ -n "$TERMUX_VERSION" ]; then
-  git config --global --unset user.signingkey && git config --global --unset commit.gpgsign
+  git config --global --unset user.signingkey || true
+  git config --global --unset commit.gpgsign || true
+
   pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit neovim zellij build-essential nodejs-lts tur-repo glibc-repo
   stow -t $HOME */ --adopt
   bat cache --build
