@@ -1,5 +1,5 @@
 # 设置默认编辑器
-set -gx EDITOR nvim
+set -gx EDITOR hx
 
 # 设置 GPG_TTY
 set -gx GPG_TTY (tty)

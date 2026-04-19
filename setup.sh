@@ -3,7 +3,7 @@ set -euo pipefail
 
 if [ -n "$TERMUX_VERSION" ]; then
   pkg install -y tur-repo &>/dev/null || echo '无法添加 TUR'
-  pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit neovim zellij build-essential nodejs-lts &>/dev/null || echo '无法安装软件包'
+  pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit helix helix-grammars zellij build-essential nodejs-lts &>/dev/null || echo '无法安装软件包'
   stow -t "$HOME" */ --adopt &>/dev/null
 
   bat cache --build &>/dev/null

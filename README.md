@@ -34,7 +34,7 @@ cd oh-my-termux
 chmod +x setup.sh
 ./setup.sh
 ```
-完成后，重启 Termux，输入 `nvim` 初始化 Neovim
+完成后，重启 Termux 即可
 
 ### 更新
 在你的 Termux 执行下面这些命令 👇
@@ -42,7 +42,6 @@ chmod +x setup.sh
 pkg update && pkg upgrade
 fisher update
 ```
-然后输入 `nvim`，输入 `:Lazy sync` 和 `:MasonUpdate`
 
 ## 🚨 注意事项
 * 脚本执行时**尽量保持亮屏**且**留在 Termux**
