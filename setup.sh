@@ -2,19 +2,29 @@
 set -euo pipefail
 
 if [ -n "$TERMUX_VERSION" ]; then
+  echo '正在添加 TUR '
   pkg install -y tur-repo &>/dev/null || echo '无法添加 TUR'
+  echo '正在安装基本工具包（此过程耗时较长）'
   pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit helix helix-grammars zellij build-essential nodejs-lts &>/dev/null || echo '无法安装软件包'
+
+  echo '正在建立配置文件软链接'
   stow -t "$HOME" */ --adopt &>/dev/null
 
+  echo '正在构建 Bat 缓存'
   bat cache --build &>/dev/null
   mkdir -p "$HOME/projects" && touch "$HOME/.hushlogin"
 
   if [ -d "$HOME/ZtInfo" ]; then
     mkdir -p "$HOME/.img"
+    echo '正在获取背景图片'
     curl -o "$HOME/.img/back.jpg" https://raw.githubusercontent.com/zhichaoh/catppuccin-wallpapers/main/os/android-black-4k.png &>/dev/null || echo '无法获取背景图片'
   fi
 
+  echo '正在切换默认 Shell'
   chsh -s fish
+
+  echo '全部完成！'
 else
   echo '当前环境不是 Termux'
+  exit 1
 fi
