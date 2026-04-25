@@ -46,6 +46,7 @@ chmod +x setup.sh
 pkg update && pkg upgrade
 fisher update
 ```
+随后输入 `nvim`，输入 `Lazy sync` 和 `MasonUpdate`
 
 ## 🚨 注意事项
 * 脚本执行时**尽量保持亮屏**且**留在 Termux**
