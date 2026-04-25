@@ -5,7 +5,7 @@ if [ -n "$TERMUX_VERSION" ]; then
   echo '正在添加 TUR '
   pkg install -y tur-repo &>/dev/null || echo '无法添加 TUR'
   echo '正在安装基本工具包（此过程耗时较长）'
-  pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit helix helix-grammars zellij build-essential nodejs-lts &>/dev/null || echo '无法安装软件包'
+  pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit neovim zellij build-essential nodejs-lts &>/dev/null || echo '无法安装软件包'
 
   echo '正在建立配置文件软链接'
   stow -t "$HOME" */ --adopt &>/dev/null
