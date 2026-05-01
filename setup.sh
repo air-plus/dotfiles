@@ -5,6 +5,7 @@ exec 1>/dev/null
 if [ -n "$TERMUX_VERSION" ]; then
   echo '正在添加 TUR'
   pkg install -y tur-repo
+
   echo '正在安装基本工具包（此过程耗时较长）'
   pkg install -y termux-api git fish git-delta fastfetch eza zoxide bat fd ripgrep starship fzf jq htop yazi file stow lazygit neovim zellij build-essential nodejs-lts
 
@@ -14,7 +15,7 @@ if [ -n "$TERMUX_VERSION" ]; then
   echo '正在构建 Bat 缓存'
   bat cache --build
 
-  mkdir -p "$HOME/projects" && touch "$HOME/.hushlogin"
+  touch "$HOME/.hushlogin"
 
   if [ -d "$HOME/ZtInfo" ]; then
     mkdir -p "$HOME/.img"
