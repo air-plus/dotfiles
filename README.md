@@ -63,13 +63,6 @@ fisher update
 </details>
 
 <details>
-  <summary>projects 目录是干什么的？</summary>
-
-> 纯个人爱好，如果用不到可以 `rm -r projects`
-
-</details>
-
-<details>
   <summary>XXX 工具不好看，可以自定义吗？</summary>
 
 > 当然可以，但你应该找工具的文档
